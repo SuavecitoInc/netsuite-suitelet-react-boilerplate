@@ -5,20 +5,17 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint '**/*.ts'",
+    "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "author": "j-Riv <jriv@suavecito.com>",
   "license": "ISC",
   "devDependencies": {
-    "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.10.0",
     "@hitc/netsuite-types": "^2024.2.2",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
-    "@typescript-eslint/parser": "^8.6.0",
     "eslint": "^9.10.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "typescript": "^5.6.2"
+    "globals": "^15.9.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.6.0"
   }
 }
